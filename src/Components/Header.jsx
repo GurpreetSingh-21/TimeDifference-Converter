@@ -58,17 +58,13 @@ function Header() {
 
   return (
     <div className="page-container">
-      {/* Background */}
-      <div className="bcg"></div>
 
       {/* Header */}
       <div className="Navbar">
         <h1 className="logo">TimeZone Converter</h1>
       </div>
 
-      
       <div className="home-content">
-        
         <h2>Welcome to TimeZone Converter</h2>
         <p>
           Convert times between time zones instantly. Perfect for meetings, travel, or staying connected globally.
@@ -126,7 +122,6 @@ function Header() {
           )}
         </div>
 
-        
         <div className="features-section">
           <h3>Features:</h3>
           <ul>
